@@ -4,7 +4,6 @@
     "type": "module",
     "scripts": {
         "build": "tsc && vite build",
-        "vercel-build": "tsc && vite build && cp -r public dist",
         "dev": "vite"
     },
     "devDependencies": {
