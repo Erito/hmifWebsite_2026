@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import Button from '@/components/ui/Button';
+import Button from '@/Components/ui/Button';
 
 const TAGLINES = ['Innovate.', 'Inspire.', 'Impact.'] as const;
 

@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import SmoothScroll from '@/components/SmoothScroll';
+import Navbar from '@/Components/Navbar';
+import Footer from '@/Components/Footer';
+import SmoothScroll from '@/Components/SmoothScroll';
 
 const HIDE_NAVBAR_ON  = ['/aspirationForm', '/linkPage'];
 const HIDE_FOOTER_ON  = ['/gallery'];

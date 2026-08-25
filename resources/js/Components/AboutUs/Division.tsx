@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
-import { aboutUsData } from '@/components/AboutUs/datas/aboutUsData';
-import { MaskImage, getTitleColor } from '@/components/AboutUs/datas/division';
-import KpiHistoryModal from '@/components/AboutUs/KpiHistory';
+import { aboutUsData } from '@/Components/AboutUs/datas/aboutUsData';
+import { MaskImage, getTitleColor } from '@/Components/AboutUs/datas/division';
+import KpiHistoryModal from '@/Components/AboutUs/KpiHistory';
 import { KpiData } from '@/types';
 
 const buttonImg = '/assets/AboutUs/assetDetailMembers/ButtonMore.svg';
@@ -89,7 +89,7 @@ export default function DivisionSection({ kpiData }: Props) {
             {/* MASKS DIVISI */}
             <div className="absolute top-0 left-0 w-full z-40">
                 <div className="flex flex-wrap w-full pointer-events-auto">
-                    {aboutUsData.map((div, i) => {
+                    {aboutUsData.map((div: any, i: number) => {
                         const isActive = i === activeIndex;
                         const widthClass = "w-[25%] md:w-[14.2857%]";
 

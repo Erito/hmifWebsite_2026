@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from '@inertiajs/react';
-import ProgramCard from '@/components/WorkProgram/ProgramCard';
+import ProgramCard from '@/Components/WorkProgram/ProgramCard';
 import proker from '@/data/proker';
 
 const FEATURED_IDS = [4, 1, 3];

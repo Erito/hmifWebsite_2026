@@ -1,8 +1,8 @@
 import { Head } from '@inertiajs/react';
 import AppLayout from '@/Layouts/AppLayout';
-import HeroAbout from '@/components/AboutUs/HeroAbout';
-import VisionMission from '@/components/AboutUs/VisionMission';
-import Division from '@/components/AboutUs/Division';
+import HeroAbout from '@/Components/AboutUs/HeroAbout';
+import VisionMission from '@/Components/AboutUs/VisionMission';
+import Division from '@/Components/AboutUs/Division';
 import { KpiData } from '@/types';
 
 interface Props {

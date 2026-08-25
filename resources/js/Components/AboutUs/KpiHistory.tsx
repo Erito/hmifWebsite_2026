@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { getTitleColor } from '@/components/AboutUs/datas/division';
+import { getTitleColor } from '@/Components/AboutUs/datas/division';
 import { KpiData } from '@/types';
 
 interface KpiHistoryModalProps {

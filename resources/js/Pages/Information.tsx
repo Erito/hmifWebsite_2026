@@ -1,6 +1,6 @@
 import { Head } from '@inertiajs/react';
 import AppLayout from '@/Layouts/AppLayout';
-import InformationContent from '@/components/information/InformationContent';
+import InformationContent from '@/Components/information/InformationContent';
 
 export default function Information() {
     return (

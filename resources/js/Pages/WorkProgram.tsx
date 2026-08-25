@@ -1,7 +1,7 @@
 import { Head } from '@inertiajs/react';
 import AppLayout from '@/Layouts/AppLayout';
-import WorkProgramIntroduction from '@/components/WorkProgram/Introduction';
-import ProgramLists from '@/components/WorkProgram/ProgramList';
+import WorkProgramIntroduction from '@/Components/WorkProgram/Introduction';
+import ProgramLists from '@/Components/WorkProgram/ProgramList';
 
 export default function WorkProgram() {
     return (

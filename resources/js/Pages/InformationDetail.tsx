@@ -1,12 +1,12 @@
 import { Head, router } from "@inertiajs/react";
 import { useEffect, useState } from "react";
 import AppLayout from "@/Layouts/AppLayout";
-import CardOther from "@/components/information/otherCard";
+import CardOther from "@/Components/information/otherCard";
 import {
     CategoryKey,
     getCategoryColor,
     getCategoryLabel,
-} from "@/components/information/categories";
+} from "@/Components/information/categories";
 
 interface Article {
     id: number;
