@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-kanit: 'Kanit', sans-serif;
+    --font-work-sans: 'Work Sans', sans-serif;
+}
+
+body {
+    background: #010511;
+    font-family: var(--font-work-sans);
+}
+
+/* Custom scrollbar (used in VisionMission) */
+.custom-scrollbar::-webkit-scrollbar { width: 5px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #363a42; border-radius: 10px; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: linear-gradient(to bottom, #c2cad6 0%, #005696 100%); border-radius: 10px; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover { background: linear-gradient(to bottom, #ffffff 0%, #0076cc 100%); }
