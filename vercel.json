@@ -1,6 +1,8 @@
 {
   "version": 2,
-  "outputDirectory": "public",
+  "framework": null,
+  "buildCommand": "tsc && vite build && cp -r public dist",
+  "outputDirectory": "dist",
   "functions": {
     "api/index.js": {
       "includeFiles": "public/build/**"
