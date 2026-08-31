@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-module.exports = (req, res) => {
+export default (req, res) => {
     // Determine the route
     const url = req.url.split('?')[0];
     const articles = [
