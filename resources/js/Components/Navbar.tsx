@@ -7,7 +7,7 @@ const navItems = [
     { label: "Work Program", href: "/workProgram" },
     { label: "Gallery", href: "/gallery" },
     { label: "Information", href: "/information" },
-    { label: "IF's Website", href: "/error" },
+    { label: "404 Page", href: "/error" },
 ];
 
 export default function Navbar() {
